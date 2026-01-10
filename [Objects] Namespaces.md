@@ -18,7 +18,7 @@ A **namespace** is an object that logically groups and isolates resources within
 
 <br>
 
-# Common Namespace Deployment Methods
+# Common Deployment Methods
 
 ## Method 1
 
