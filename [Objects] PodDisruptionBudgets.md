@@ -10,7 +10,7 @@ A **pod disruption budget** is an object that helps limit voluntary disruptions 
 
 <br>
 
-# Common Pod Disruption Budget Deployment Methods
+# Common Deployment Methods
 
 ## Method 1
 
