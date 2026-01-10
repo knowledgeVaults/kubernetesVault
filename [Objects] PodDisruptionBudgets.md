@@ -16,7 +16,10 @@ A **pod disruption budget** is an object that helps limit voluntary disruptions 
 
 A PodDisruptionBudget can be created and deployed using `kubectl`
 ```Bash
-kubectl create poddisruptionbudget PDB_NAME --selector=LABEL=VALUE {--min-available=NUMBER_OR_PERCENTAGE|--max-unavailable=NUMBER_OR_PERCENTAGE}
+kubectl create poddisruptionbudget PDB_NAME \
+  --selector=LABEL=VALUE \
+  --min-available=NUMBER_OR_PERCENTAGE \
+  --max-unavailable=NUMBER_OR_PERCENTAGE
 ```
 
 <br>
@@ -30,8 +33,10 @@ kind: PodDisruptionBudget
 metadata:
   name: OBJECT_NAME
 spec:
-  minAvailable: NUMBER_OR_PERCENTAGE # Ensures that a minimum number of pods stay up
-  maxUnavailable: NUMBER_OR_PERCENTAGE # Limits how many pods can go down at once
+  # Ensures that a minimum number of pods stay up
+  minAvailable: NUMBER_OR_PERCENTAGE 
+  # Limits how many pods can go down at once
+  maxUnavailable: NUMBER_OR_PERCENTAGE 
   selector:
     matchLabels:
       LABEL: VALUE
