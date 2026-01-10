@@ -6,21 +6,31 @@ A **limit range** is an object that specifies the **default resource limits and 
 
 <br>
 
-# Common Limit Range Deployment Methods
+# Common Deployment Methods
 
 ## Method 1
 
 A limit range can be created and deployed using `kubectl`
 ```Bash
 # Create default limit for RAM
-kubectl create limitrange LIMIT_RANGE_NAME --default-request=memory=VALUE -n NAMESPACE
+kubectl create limitrange LIMIT_RANGE_NAME \
+  --default-request=memory=VALUE \
+  --namespace NAMESPACE
+
 # Create default request for RAM
-kubectl create limitrange LIMIT_RANGE_NAME --default=memory=VALUE -n NAMESPACE
+kubectl create limitrange LIMIT_RANGE_NAME \
+  --default=memory=VALUE \
+  --namespace NAMESPACE
 
 # Create default limit for CPU
-kubectl create limitrange LIMIT_RANGE_NAME --default-request=cpu=VALUE -n NAMESPACE
+kubectl create limitrange LIMIT_RANGE_NAME \
+  --default-request=cpu=VALUE \
+  --namespace NAMESPACE
+
 # Create default request for CPU
-kubectl create limitrange LIMIT_RANGE_NAME --default=cpu=VALUE -n NAMESPACE
+kubectl create limitrange LIMIT_RANGE_NAME \
+  --default=cpu=VALUE \
+  --namespace NAMESPACE
 ```
 
 <br>

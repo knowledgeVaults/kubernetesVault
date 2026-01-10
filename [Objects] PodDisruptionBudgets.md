@@ -18,8 +18,8 @@ A PodDisruptionBudget can be created and deployed using `kubectl`
 ```Bash
 kubectl create poddisruptionbudget PDB_NAME \
   --selector=LABEL=VALUE \
-  --min-available=NUMBER_OR_PERCENTAGE \
-  --max-unavailable=NUMBER_OR_PERCENTAGE
+  --min-available=VALUE \
+  --max-unavailable=VALUE
 ```
 
 <br>
@@ -33,9 +33,7 @@ kind: PodDisruptionBudget
 metadata:
   name: OBJECT_NAME
 spec:
-  # Ensures that a minimum number of pods stay up
   minAvailable: NUMBER_OR_PERCENTAGE 
-  # Limits how many pods can go down at once
   maxUnavailable: NUMBER_OR_PERCENTAGE 
   selector:
     matchLabels:
