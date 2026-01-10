@@ -4,7 +4,7 @@ A **namespace** is an object that logically groups and isolates resources within
 
 * Provides a way to divide a cluster between multiple users or applications
 
-![](https://github.com/JonmarCorpuz/publicDiagrams/blob/main/kubernetes-namespace.png)
+![](https://github.com/knowledgeVaults/imagesVault/blob/main/kubernetes-namespaces.png)
 
 <br>
 
@@ -20,12 +20,16 @@ A **namespace** is an object that logically groups and isolates resources within
 
 # Common Namespace Deployment Methods
 
+## Method 1
+
 A namespace can be created and deployed using `kubectl`
 ```Bash
 kubectl create namespace NAMESPACE_NAME
 ```
 
 <br>
+
+## Method 2
 
 A namespace can be defined using a YAML file and then deployed using `kubectl`
 ```YAML
