@@ -6,7 +6,7 @@ A **pod disruption budget** is an object that helps limit voluntary disruptions 
 * Prevents having too many pods from being disrupted at the same time
 * Doesn't protect against involuntary disruptions
 
-![](https://github.com/knowledgeVaults/imagesVault/blob/main/kubernetes-pod-disruption-budget.png)
+![](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-pod-disruption-budget.png)
 
 <br>
 
