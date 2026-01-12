@@ -4,7 +4,7 @@ A **namespace** is an object that logically groups and isolates resources within
 
 * Provides a way to divide a cluster between multiple users or applications
 
-![](https://github.com/knowledgeVaults/imagesVault/blob/main/kubernetes-namespaces.png)
+![](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-namespaces.png)
 
 <br>
 

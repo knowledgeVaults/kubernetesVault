@@ -4,7 +4,7 @@ The API Server in a Kubernetes is the central entry point of the Kubernetes cont
 
 * All communication within a Kubernetes cluster passes through the API server
 
-![](https://github.com/knowledgeVaults/imagesVault/blob/main/kubernetes-api-server.png)
+![](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-api-server.png)
 
 <br>
 
