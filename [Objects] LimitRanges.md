@@ -2,7 +2,7 @@
 
 A **limit range** is an object that specifies the **default resource limits and requests** for pods or containers within a namespace
 
-![](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-limit-range.png)
+![limit-range-visual-diagram](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-limit-range.png)
 
 <br>
 

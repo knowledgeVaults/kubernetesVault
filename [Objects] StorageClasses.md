@@ -4,4 +4,4 @@ A **storage** class is an object that defines how storage is provisioned to appl
 
 * Allows for dynamic volume provisioning
 
-![storage-class-workflow](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-storage-class.png)
+![storage-class-visual-diagram](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-storage-class.png)

@@ -1,1 +1,0 @@
-# Kubernetes: Persistent Volume Claims
