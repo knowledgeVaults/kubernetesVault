@@ -1,1 +1,0 @@
-# Kubernetes: Taints and Tolerations

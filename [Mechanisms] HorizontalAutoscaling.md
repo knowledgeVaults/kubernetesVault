@@ -1,5 +1,0 @@
-# Kubernetes: Autoscaling
-
-<br>
-
-# Horizontal
