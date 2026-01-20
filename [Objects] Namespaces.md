@@ -3,6 +3,7 @@
 A **namespace** is an object that logically groups and isolates resources within a single K8 cluster
 
 * Provides a way to divide a cluster between multiple users or applications
+* Groups all pods and services within the same namespace under a root domain that's set to "cluster.local" by default
 
 ![](https://raw.githubusercontent.com/knowledgeVaults/imagesVault/main/kubernetes-namespaces.png)
 
