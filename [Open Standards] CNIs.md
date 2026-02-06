@@ -1,6 +1,9 @@
 # Kubernetes: Container Network Interfaces
 
-* The supported CNI plugins are stored in the CNI bin directory as executables
+CNIs are plugins that implement networking within your Kubernetes cluster
+
+* Kubernetes relies on CNIs to implement networking capabilities within a cluster since Kubernetes doesn't come with built-in networking
+* The supported CNI plugins are stored in the CNI bin directory (`/opt/cni/bin/`) as executables
 
 <br>
 
