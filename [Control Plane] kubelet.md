@@ -9,3 +9,4 @@ The kubelet is the node agent that runs on every worker and master node within a
 * Pulls images
 * Mounts any specified volumes, ConfigMaps, and Secrets for pods before starting containers 
 * Enforces resource limits and cgroups locally
+* Looks in the CNI config directory for which plugin to use 
