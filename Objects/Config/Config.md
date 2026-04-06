@@ -1,0 +1,10 @@
+
+```YAML
+apiVersion: v1
+kind: Config
+clusters:
+contexts:
+current-context:
+preferences:
+users:
+```

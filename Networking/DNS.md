@@ -1,0 +1,3 @@
+
+[[kube-dns]]
+[[CoreDNS]]

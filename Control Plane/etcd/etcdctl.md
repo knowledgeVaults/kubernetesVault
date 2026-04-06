@@ -1,0 +1,5 @@
+
+Take snapshot
+```Bash
+etcdctl 
+```
